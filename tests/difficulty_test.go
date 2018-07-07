@@ -22,8 +22,8 @@ import (
 
 	"math/big"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/HaroldCao/go-ethereum/common"
+	"github.com/HaroldCao/go-ethereum/params"
 )
 
 var (

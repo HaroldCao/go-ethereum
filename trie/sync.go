@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/meitu/go-ethereum/common"
+	"github.com/HaroldCao/go-ethereum/common"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/HaroldCao/go-ethereum/crypto"
 )
 
 // Tests whether a message can be wrapped without any identity or encryption.

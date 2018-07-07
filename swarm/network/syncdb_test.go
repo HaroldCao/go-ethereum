@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/swarm/storage"
+	"github.com/HaroldCao/go-ethereum/crypto"
+	"github.com/HaroldCao/go-ethereum/log"
+	"github.com/HaroldCao/go-ethereum/swarm/storage"
 )
 
 func init() {

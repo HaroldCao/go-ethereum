@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meitu/go-ethereum/accounts"
-	"github.com/meitu/go-ethereum/accounts/keystore"
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/eth"
-	"github.com/meitu/go-ethereum/eth/downloader"
-	"github.com/meitu/go-ethereum/ethclient"
-	"github.com/meitu/go-ethereum/ethstats"
-	"github.com/meitu/go-ethereum/les"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/node"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/p2p/discover"
-	"github.com/meitu/go-ethereum/p2p/discv5"
-	"github.com/meitu/go-ethereum/p2p/nat"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/HaroldCao/go-ethereum/accounts"
+	"github.com/HaroldCao/go-ethereum/accounts/keystore"
+	"github.com/HaroldCao/go-ethereum/common"
+	"github.com/HaroldCao/go-ethereum/core"
+	"github.com/HaroldCao/go-ethereum/core/types"
+	"github.com/HaroldCao/go-ethereum/eth"
+	"github.com/HaroldCao/go-ethereum/eth/downloader"
+	"github.com/HaroldCao/go-ethereum/ethclient"
+	"github.com/HaroldCao/go-ethereum/ethstats"
+	"github.com/HaroldCao/go-ethereum/les"
+	"github.com/HaroldCao/go-ethereum/log"
+	"github.com/HaroldCao/go-ethereum/node"
+	"github.com/HaroldCao/go-ethereum/p2p"
+	"github.com/HaroldCao/go-ethereum/p2p/discover"
+	"github.com/HaroldCao/go-ethereum/p2p/discv5"
+	"github.com/HaroldCao/go-ethereum/p2p/nat"
+	"github.com/HaroldCao/go-ethereum/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -443,7 +443,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case strings.HasPrefix(msg.URL, "https://www.facebook.com/"):
 			username, avatar, address, err = authFacebook(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/meitu/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/HaroldCao/go-ethereum/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

@@ -18,11 +18,11 @@
 package consensus
 
 import (
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/core/state"
-	"github.com/meitu/go-ethereum/core/types"
-	"github.com/meitu/go-ethereum/params"
-	"github.com/meitu/go-ethereum/rpc"
+	"github.com/HaroldCao/go-ethereum/common"
+	"github.com/HaroldCao/go-ethereum/core/state"
+	"github.com/HaroldCao/go-ethereum/core/types"
+	"github.com/HaroldCao/go-ethereum/params"
+	"github.com/HaroldCao/go-ethereum/rpc"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

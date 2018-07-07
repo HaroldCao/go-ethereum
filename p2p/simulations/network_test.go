@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/meitu/go-ethereum/p2p/discover"
-	"github.com/meitu/go-ethereum/p2p/simulations/adapters"
+	"github.com/HaroldCao/go-ethereum/p2p/discover"
+	"github.com/HaroldCao/go-ethereum/p2p/simulations/adapters"
 )
 
 // TestNetworkSimulation creates a multi-node simulation network with each node

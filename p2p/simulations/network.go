@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/meitu/go-ethereum/event"
-	"github.com/meitu/go-ethereum/log"
-	"github.com/meitu/go-ethereum/p2p"
-	"github.com/meitu/go-ethereum/p2p/discover"
-	"github.com/meitu/go-ethereum/p2p/simulations/adapters"
+	"github.com/HaroldCao/go-ethereum/event"
+	"github.com/HaroldCao/go-ethereum/log"
+	"github.com/HaroldCao/go-ethereum/p2p"
+	"github.com/HaroldCao/go-ethereum/p2p/discover"
+	"github.com/HaroldCao/go-ethereum/p2p/simulations/adapters"
 )
 
 // NetworkConfig defines configuration options for starting a Network

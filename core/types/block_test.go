@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/ethdb"
-	"github.com/meitu/go-ethereum/rlp"
+	"github.com/HaroldCao/go-ethereum/common"
+	"github.com/HaroldCao/go-ethereum/ethdb"
+	"github.com/HaroldCao/go-ethereum/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/meitu/go-ethereum/core/vm"
+	"github.com/HaroldCao/go-ethereum/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

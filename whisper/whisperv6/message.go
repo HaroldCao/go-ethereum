@@ -27,10 +27,10 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/meitu/go-ethereum/common"
-	"github.com/meitu/go-ethereum/crypto"
-	"github.com/meitu/go-ethereum/crypto/ecies"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/HaroldCao/go-ethereum/common"
+	"github.com/HaroldCao/go-ethereum/crypto"
+	"github.com/HaroldCao/go-ethereum/crypto/ecies"
+	"github.com/HaroldCao/go-ethereum/log"
 )
 
 // Options specifies the exact way a message should be wrapped into an Envelope.

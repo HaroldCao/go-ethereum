@@ -19,8 +19,8 @@
 package geth
 
 import (
-	"github.com/meitu/go-ethereum/p2p/discv5"
-	"github.com/meitu/go-ethereum/params"
+	"github.com/HaroldCao/go-ethereum/p2p/discv5"
+	"github.com/HaroldCao/go-ethereum/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

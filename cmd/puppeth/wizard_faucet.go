@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/meitu/go-ethereum/accounts/keystore"
-	"github.com/meitu/go-ethereum/log"
+	"github.com/HaroldCao/go-ethereum/accounts/keystore"
+	"github.com/HaroldCao/go-ethereum/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

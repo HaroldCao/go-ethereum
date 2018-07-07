@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/meitu/go-ethereum/metrics"
-	"github.com/meitu/go-ethereum/p2p"
+	"github.com/HaroldCao/go-ethereum/metrics"
+	"github.com/HaroldCao/go-ethereum/p2p"
 )
 
 var (
